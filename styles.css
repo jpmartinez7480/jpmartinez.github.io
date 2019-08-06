@@ -6,3 +6,44 @@
     margin-top:15px;
     margin-bottom:15px;
 }
+
+.description{
+    position: relative;
+}
+
+.seeMore{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #125BB2;
+    opacity: 0;
+}
+
+.seeMore:hover{
+    opacity: 100;
+    cursor:pointer;
+}
+
+.seeMore p{
+    color:#125BB2;
+    font-size: 18px;
+    letter-spacing: 1.6px;
+    padding:5px;
+    text-align: center;
+}
+
+
+.description-text{
+    font-size: 13px;
+}
+
+.spacing-teal{
+    margin:3px;
+    padding:3px;
+}
+
+.w3-tag{
+    border-radius: 15px;
+    padding:4px;
+}
