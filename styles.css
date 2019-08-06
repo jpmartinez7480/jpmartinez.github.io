@@ -44,6 +44,6 @@
 }
 
 .w3-tag{
-    border-radius: 15px;
+    border-radius: 15px !important;
     padding:4px;
 }
